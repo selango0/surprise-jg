@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "dev": "webpack serve --mode development",
+    "start":"node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   "homepage": "https://autumnchris.github.io/random-quote-machine-reactjs",
   "dependencies": {
     "axios": "^0.21.1",
+    "express": "^4.17.2",
     "normalize.css": "^5.0.0",
+    "path": "^0.12.7",
     "react": "^17.0.2",
     "react-canvas-confetti": "^1.2.1",
     "react-confetti-canvas": "^1.0.3",
