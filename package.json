@@ -1,5 +1,5 @@
 {
-  "name": "random-quote-machine-reactjs",
+  "name": "surprise-jg",
   "version": "1.0.0",
   "description": "A front-end web app that gets and displays an inspirational quote at random from my own Express.js Quotes API. Built with React.js.",
   "main": "index.js",
@@ -10,15 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/autumnchris/random-quote-machine-reactjs.git"
+    "url": "git+https://github.com/selango0/surprise-jg.git"
   },
   "keywords": [],
   "author": "autumnchris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/autumnchris/random-quote-machine-reactjs/issues"
+    "url": "https://github.com/selango0/surprise-jg.git/issues"
   },
-  "homepage": "https://autumnchris.github.io/random-quote-machine-reactjs",
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.17.2",

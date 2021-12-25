@@ -9,7 +9,6 @@ module.exports = {
   },
   devtool: "eval-cheap-source-map",
   devServer: {
-    port: 7000,
     static: [{
       watch: true
     }]
