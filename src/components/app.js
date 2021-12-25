@@ -28,7 +28,7 @@ const App = () => {
   return (
     <React.Fragment>
       <header>
-        <h1>Happy Birthday Jackie!</h1>
+        <h1>Happy Golden Birthday Jackie!</h1>
       </header>
       <main>
         {loadingStatus ? <LoadingSpinner /> : quotes.length !== 0 ? <QuoteContainer quotes={quotes} /> : <ErrorMessage />}
