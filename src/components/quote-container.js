@@ -65,7 +65,7 @@ export default function QuoteContainer ({ quotes }) {
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     setRandomQuote(prevRandomQuote => {
       return {
-        ...prevRandomQuote,
+        ...prevRandomQuote.splice(randomQuote,1),
         quote: randomQuote.quote,
         source: randomQuote.source
       };

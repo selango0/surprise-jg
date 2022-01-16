@@ -16,7 +16,7 @@ const App = () => {
 
   // https://sheet.best/api/sheets/38028fac-ebe8-4298-8bbb-1b8af612d31b
   function fetchQuotes() {
-    axios.get('https://sheet.best/api/sheets/38028fac-ebe8-4298-8bbb-1b8af612d31b').then(response => {
+    axios.get('https://autumnchris-quotes.herokuapp.com/api/quotes').then(response => {
       setQuotes(response.data);
       setLoadingStatus(false);
     }).catch(() => {
