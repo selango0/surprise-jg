@@ -34,7 +34,7 @@ const App = () => {
       <main>
         {loadingStatus ? <LoadingSpinner /> : quotes.length !== 0 ? <QuoteContainer quotes={quotes} /> : <ErrorMessage />}
       </main>
-      <footer>Created for Jackie's 26th Birthday! &copy; 2021</footer>
+      <footer>Created for Jackie's 26th Birthday! &copy; 2021 (updated 1/15/22)</footer>
     </React.Fragment>
   );
 }
